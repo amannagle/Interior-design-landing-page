@@ -33,3 +33,115 @@ ul.nav-list {
     font-size: 20px;
     font-weight: 600;
 }
+
+.middle-section h1{
+    font-family: 'Segoe UI';
+    color: #ffffff;
+    
+    font-size: 70px;
+}
+li.call{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+li.call>i{
+    font-size: 35px;
+    transform: rotate(-40deg);
+}
+button.btn{
+    margin-top: 50px;
+    height: 60px;
+    width: 210px;
+    color: #ffffff;
+    background-color: transparent;
+    border-radius: 29px;
+    border: 2px solid #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+section.middle-section{
+    padding: 50px 70px;
+    position: relative;
+}
+
+div.floaters{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    height: 180px;
+    width: 320px;
+    padding:  50px 30px;
+    gap: 4px;
+    background-color: #f1f1f122;
+    margin: 10px;
+    color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    outline: none;
+}
+.floater-1 img,.floater-2 img{
+    height: 60px;
+    width: 150px;
+    align-self: flex-start;
+    border-radius: 30px;
+    padding: 10px 0;
+    color: #000000;
+    background-color: #ffffff;
+}
+.floater-1{
+    top: 172px;
+    right: 197px;
+}
+
+.floater-2{
+    top: 464px;
+    right: 540px;
+}
+
+.floater-2 img{
+    margin-left: 20px;
+}
+
+div.line-1{
+    position: absolute;
+    height: 100px;
+    width: 2px;
+    background-color: #f1f1f122;
+    bottom: -102px;
+    left: 220px;
+}
+
+div.line-2{
+    position: absolute;
+    height: 2px;
+    width: 100px;
+    background-color: #f1f1f122;
+    bottom: 102px;
+    left: 320px;
+}
+
+.bulb-abs-1{
+    position: absolute;
+    bottom: -110px;
+    right: 89px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #ffffff;
+}
+
+.bulb-abs-2{
+    position: absolute;
+    bottom: 93px;
+    right: -123px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #ffffff; 
+}
